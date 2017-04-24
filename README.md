@@ -20,12 +20,23 @@
 $ sudo npm install -g yarn
  ```
 
+Check version of node (as of writing mine is v6.3.1)
+```shell
+$node -v
+```
+
+Check version of Yarn (as of writing mine is v0.22.0): 
+```shell
+$yarn -v
+```
+
 
 ### Getting Started
+**Step 1**.
 
 ```shell
-$git clone -o react-static-boilerplate -b master --single-branch \
-       https://github.com/kriasoft/react-static-boilerplate.git MyApp
+$git clone -o berkeley-onederful-demo -b master --single-branch \
+       https://github.com/alxyee/berkeley-onederful-demo.git CalDemoApp
 ```
 
 
