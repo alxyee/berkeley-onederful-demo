@@ -6,7 +6,7 @@
     <img src="public/images/cal.png" width="150" height="100">
   </a>
   <a href="https://localizejs.com/?cid=802&utm_source=rsk" target="_blank">
-    <img src="public/images/onederful-logo.png" width="150" height="150">
+    <img src="public/images/onederful_logo.png" width="150" height="150">
   </a>
     </p>
 
@@ -42,13 +42,13 @@ $ yarn start                    # Compiles the app and opens it in a browser wit
 
 
 ![publish](https://koistya.github.io/files/react-static-boilerplate-publish.gif)
-### 
 
-###This boilerplate is a modified version of React Static Boilerplate. For more more advanced setup and detailed info on the config go to:
+
+### This boilerplate is a modified version of React Static Boilerplate. For more more advanced setup and detailed info on the config go to:
 **[React Static Boilerplate](https://github.com/kriasoft/react-static-boilerplate)
-###
 
-###Appendix
+
+### Appendix
 
 Check version of node (as of writing mine is v6.3.1)
 ```shell
@@ -60,4 +60,3 @@ Check version of Yarn (as of writing mine is v0.22.0):
 $ yarn -v
 ```
 
-###
