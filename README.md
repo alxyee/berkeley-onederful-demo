@@ -3,14 +3,11 @@
 
 <p align="center">
   <a href="https://rollbar.com/?utm_source=reactstartkit(github)&utm_medium=link&utm_campaign=reactstartkit(github)" target="_blank">
-    <img src="public/images/yelp/small_0@3x.png" width="192" height="32">
+    <img src="public/images/cal.png" width="150" height="100">
   </a>
   <a href="https://localizejs.com/?cid=802&utm_source=rsk" target="_blank">
-    <img src="https://koistya.github.io/files/localize-353x64.png" width="176.5" height="32">
+    <img src="public/images/onederful-logo.png" width="150" height="150">
   </a>
-  <a href="https://www.digitalocean.com/?refcode=eef302dbae9f&utm_source=github&utm_medium=oss_sponsorships&utm_campaign=opencollective" target="_blank">
-        <img src="https://koistya.github.io/files/digital-ocean-393x64.png" width="196.5" height="32">
-      </a>
     </p>
 
 **Requirements**:
