@@ -16,8 +16,7 @@
 **Requirements**:
  * Node > v6.0:  
 &nbsp;to download go to [Node.js](https://nodejs.org/en/download/)
- * [Yarn](https://yarnpkg.com/)
- 
+ * [Yarn](https://yarnpkg.com/)  
  &nbsp; install globally:
  ```shell
 $ sudo npm install -g yarn
