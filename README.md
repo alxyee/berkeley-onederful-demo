@@ -2,12 +2,8 @@
 
 
 <p align="center">
-  <a href="https://rollbar.com/?utm_source=reactstartkit(github)&utm_medium=link&utm_campaign=reactstartkit(github)" target="_blank">
+      <img src="public/images/onederful_logo.png" width="125" height="125">
     <img src="public/images/cal.png" width="150" height="100">
-  </a>
-  <a href="https://localizejs.com/?cid=802&utm_source=rsk" target="_blank">
-    <img src="public/images/onederful_logo.png" width="150" height="150">
-  </a>
     </p>
 
 **Requirements**:
