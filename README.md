@@ -1,20 +1,5 @@
-# React Static Boilerplate &nbsp; <a href="https://travis-ci.org/kriasoft/react-static-boilerplate"><img src="http://img.shields.io/travis/kriasoft/react-static-boilerplate/master.svg?style=flat-square" height="20" /></a> <a href="https://github.com/kriasoft/react-static-boilerplate/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/react-static-boilerplate.svg?style=social&label=Star&maxAge=3600" height="20"></a> <a href="https://twitter.com/ReactStatic"><img src="https://img.shields.io/twitter/follow/ReactStatic.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
+# Berkeley Onederful Demo
 
-[**React Static Boilerplate**](https://github.com/kriasoft/react-static-boilerplate) (RSB) is a
-boilerplate and tooling for creating modern stand-alone web applications (aka
-[SPA](https://en.wikipedia.org/wiki/Single-page_application)s) for a serverless architecture. RSB
-significantly reduces cost by eliminating the need for servers such as EC2 instances because the
-entire site can be hosted directly from CDN ([Firebase](https://www.firebase.com/), [GitHub
-Pages](https://pages.github.com/), [Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html),
-or other similar cloud storage). Sites built with RSB can be fully functional with REST API or
-GraphQL calls to micro-services such as [Amazon Lambda](https://aws.amazon.com/lambda/),
-[Azure Functions](https://azure.microsoft.com/services/functions/), or dynamic Docker endpoints
-hosted on [DigitalOcean](https://www.digitalocean.com/?refcode=eef302dbae9f&utm_source=github&utm_medium=oss_sponsorships&utm_campaign=opencollective).
-RSB demonstrates how to use component-based UI development approach with best of breed
-technologies including [React](http://facebook.github.io/react/), [Redux](http://redux.js.org/),
-[Babel](http://babeljs.io/), [Webpack](https://webpack.github.io/), [Browsersync](https://browsersync.io/),
-[React Hot Loader](http://gaearon.github.io/react-hot-loader/) and more. **This work is being
-[sponsored](https://opencollective.com/react-static-boilerplate#support) by**:
 
 <p align="center">
   <a href="https://rollbar.com/?utm_source=reactstartkit(github)&utm_medium=link&utm_campaign=reactstartkit(github)" target="_blank">
@@ -80,14 +65,9 @@ or [ProductHunt](https://www.producthunt.com/tech/react-static-boilerplate) &nbs
 **Step 1**. Make sure that you have [Node.js](https://nodejs.org/) v6 or newer and
 [Yarn](https://yarnpkg.com/) installed on your development machine.
 
-**Step 2**. Clone this repository (alternatively, use [Yeoman
-generator](https://github.com/kriasoft/react-static-boilerplate/tree/generator-react-static) to
-bootstrap your project):
+**Step 2**. Clone this repository and install packages:
 
 ```shell
-$ git clone -o react-static-boilerplate -b master --single-branch \
-      https://github.com/kriasoft/react-static-boilerplate.git MyApp
-$ cd MyApp
 $ yarn install                  # Install project dependencies listed in package.json
 ```
 
@@ -103,28 +83,6 @@ with HMR and React Hot Loader disabled by running `yarn start -- --no-hmr`. The 
 available at [http://localhost:3000/](http://localhost:3000/).
 
 
-### How to Test
-
-The unit tests are powered by [chai](http://chaijs.com/) and [mocha](http://mochajs.org/).
-
-```shell
-$ yarn lint                     # Check JavaScript and CSS code for potential issues
-$ yarn test                     # Run unit tests. Or, `yarn run test:watch`
-```
-
-
-### How to Deploy
-
-Update `publish` script in the [`tools/publish.js`](tools/publish.js) file with your full Firebase
-project name as found in your [Firebase console](https://console.firebase.google.com/). Note that
-this may have an additional identifier suffix than the shorter name you've provided. Then run: 
-
-```shell
-$ yarn run publish                  # Builds and deployes the app to Firebase
-```
-
-The first time you publish, you will be prompted to authenticate with Google and generate an
-authentication token in order for the publish script to continue.
 
 ![publish](https://koistya.github.io/files/react-static-boilerplate-publish.gif)
 
