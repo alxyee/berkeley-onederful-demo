@@ -39,6 +39,8 @@ $ yarn start                    # Compiles the app and opens it in a browser wit
 
 ![publish](https://koistya.github.io/files/react-static-boilerplate-publish.gif)
 
+Check out the onederful [Demo](http://berkeley-onederful-demo.s3-website-us-west-2.amazonaws.com/)
+
 
 ### This boilerplate is a modified version of React Static Boilerplate. For more more advanced setup and detailed info on the config go to:
 [React Static Boilerplate](https://github.com/kriasoft/react-static-boilerplate)
