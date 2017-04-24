@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://rollbar.com/?utm_source=reactstartkit(github)&utm_medium=link&utm_campaign=reactstartkit(github)" target="_blank">
-    <img src="/images/yelp/small_0@3x.png" width="192" height="32">
+    <img src="public/images/yelp/small_0@3x.png" width="192" height="32">
   </a>
   <a href="https://localizejs.com/?cid=802&utm_source=rsk" target="_blank">
     <img src="https://koistya.github.io/files/localize-353x64.png" width="176.5" height="32">
