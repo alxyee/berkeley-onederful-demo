@@ -1,0 +1,32 @@
+.tag{
+  border-radius: 5px;
+  /*border: 1px solid rgba(234,10,200, 0.5);*/
+  /*padding: 2px 5px;*/
+  margin: 5px;
+  display:flex;
+}
+
+.tag > h5{
+  margin: 0;
+  padding: 5px;
+  font-weight:100;
+  background-color: #aec6cf;
+  border-right: 1px solid black;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+}
+.tag > h6{
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
+  background-color: #779ecb;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+}
+.tagContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
