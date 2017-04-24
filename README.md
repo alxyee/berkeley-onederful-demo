@@ -13,12 +13,15 @@
       </a>
     </p>
 
+**Requirements**:
+ - Node > v6.0  
+ -- to download go to [Node.js](https://nodejs.org/en/download/)
+ - [Yarn](https://yarnpkg.com/) 
+
 
 ### Getting Started
 
-**Requirements**:
- - Node > v6.0 [Node.js](https://nodejs.org/en/download/) 
- - [Yarn](https://yarnpkg.com/) 
+
 
 **Step 2**. Clone this repository and install packages:
 
