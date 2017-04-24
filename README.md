@@ -37,7 +37,7 @@ $ yarn start                    # Compiles the app and opens it in a browser wit
 ```
 
 
-![publish](https://koistya.github.io/files/react-static-boilerplate-publish.gif)
+![publish](public/images/yarnStart.gif)
 
 Check out the onederful [Demo](http://berkeley-onederful-demo.s3-website-us-west-2.amazonaws.com/)
 
