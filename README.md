@@ -9,61 +9,16 @@
     <img src="https://koistya.github.io/files/localize-353x64.png" width="176.5" height="32">
   </a>
   <a href="https://www.digitalocean.com/?refcode=eef302dbae9f&utm_source=github&utm_medium=oss_sponsorships&utm_campaign=opencollective" target="_blank">
-    <img src="https://koistya.github.io/files/digital-ocean-393x64.png" width="196.5" height="32">
-  </a>
-</p>
-
-
-### Features
-
-✓ Modern JavaScript syntax ([ES2015](http://babeljs.io/docs/learn-es2015/)+) via [Babel](http://babeljs.io/), modern CSS syntax via [PostCSS](https://github.com/postcss/postcss)<br>
-✓ Component-based UI architecture via [React](http://facebook.github.io/react/), [Webpack](https://webpack.github.io/) and [CSS Modules](https://github.com/css-modules/css-modules)<br>
-✓ Application state management /w time-travel debugging via [Redux](http://redux.js.org/) (see [`main.js`](src/main.js), [`store.js`](src/store.js))<br>
-✓ Routing and navigation via [`path-to-regexp`](https://github.com/pillarjs/path-to-regexp) and [`history`](https://github.com/mjackson/history) ([`main.js`](src/main.js), [`router.js`](src/router.js), [`tools/routes-loader.js`](tools/routes-loader.js))<br>
-✓ [Code-splitting](https://github.com/webpack/docs/wiki/code-splitting) and async chunk loading via [Webpack](https://webpack.github.io/) v2<br>
-✓ Hot Module Replacement ([HMR](https://webpack.github.io/docs/hot-module-replacement.html)) /w [React Hot Loader](http://gaearon.github.io/react-hot-loader/), cross-device testing with [Browsersync](https://browsersync.io/) (see [`run.js`](tools/run.js))<br>
-✓ **24/7** community support on [Gitter](https://gitter.im/kriasoft/react-static-boilerplate) + *perimum support* on [Skype](https://hatscripts.com/addskype?koistya) ([book a session](https://calendly.com/koistya))<br>
-
-**View** [docs](./docs), [online demo](https://rsb.kriasoft.com) &nbsp;|&nbsp; **Follow us** on
-[Gitter](https://gitter.im/kriasoft/react-static-boilerplate), [Twitter](https://twitter.com/ReactStatic)
-or [ProductHunt](https://www.producthunt.com/tech/react-static-boilerplate) &nbsp;|&nbsp;
-**Learn** [React.js and ES6](#learn-reactjs-and-es6)
-
-
-### Directory Layout
-
-```shell
-├── components/                 # Shared or generic UI components
-│   ├── Button/                 # Button component
-│   ├── Layout/                 # Website layout component
-│   ├── Link/                   # Link component to be used instead of <a>
-│   └── ...                     # etc.
-├── docs/                       # Documentation to the project
-├── node_modules/               # 3rd-party libraries and utilities
-├── src/                        # Application source code
-│   ├── about/                  # About page
-│   ├── error/                  # Error page
-│   ├── home/                   # Home page
-│   ├── history.js              # Handles client-side navigation
-│   ├── main.js                 # <== Application entry point <===
-│   ├── router.js               # Handles routing and data fetching
-│   ├── routes.json             # This list of application routes
-│   └── store.js                # Application state manager (Redux)
-├── public/                     # Static files such as favicon.ico etc.
-│   ├── dist/                   # The folder for compiled output
-│   ├── favicon.ico             # Application icon to be displayed in bookmarks
-│   ├── robots.txt              # Instructions for search engine crawlers
-│   └── ...                     # etc.
-├── test/                       # Unit and integration tests
-├── tools/                      # Utility and helper classes
-└── package.json                # The list of project dependencies and NPM scripts
-```
+        <img src="https://koistya.github.io/files/digital-ocean-393x64.png" width="196.5" height="32">
+      </a>
+    </p>
 
 
 ### Getting Started
 
-**Step 1**. Make sure that you have [Node.js](https://nodejs.org/) v6 or newer and
-[Yarn](https://yarnpkg.com/) installed on your development machine.
+**Requirements**:
+ - Node > v6.0 [Node.js](https://nodejs.org/en/download/) 
+ - [Yarn](https://yarnpkg.com/) 
 
 **Step 2**. Clone this repository and install packages:
 
