@@ -25,6 +25,10 @@ $ sudo npm install -g yarn
 
 ### Getting Started
 
+```shell
+$git clone -o react-static-boilerplate -b master --single-branch \
+       https://github.com/kriasoft/react-static-boilerplate.git MyApp
+```
 
 
 **Step 2**. Clone this repository and install packages:
