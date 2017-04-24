@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://rollbar.com/?utm_source=reactstartkit(github)&utm_medium=link&utm_campaign=reactstartkit(github)" target="_blank">
-    <img src="https://koistya.github.io/files/rollbar-384x64.png" width="192" height="32">
+    <img src="/images/yelp/small_0@3x.png" width="192" height="32">
   </a>
   <a href="https://localizejs.com/?cid=802&utm_source=rsk" target="_blank">
     <img src="https://koistya.github.io/files/localize-353x64.png" width="176.5" height="32">
@@ -19,16 +19,6 @@
  ```shell
 $ sudo npm install -g yarn
  ```
-
-Check version of node (as of writing mine is v6.3.1)
-```shell
-$ node -v
-```
-
-Check version of Yarn (as of writing mine is v0.22.0): 
-```shell
-$ yarn -v
-```
 
 
 ### Getting Started
@@ -54,11 +44,23 @@ $ yarn start                    # Compiles the app and opens it in a browser wit
 ```
 
 
-
-
 ![publish](https://koistya.github.io/files/react-static-boilerplate-publish.gif)
 ### 
 
 ###This boilerplate is a modified version of React Static Boilerplate. For more more advanced setup and detailed info on the config go to:
 **[React Static Boilerplate](https://github.com/kriasoft/react-static-boilerplate)
+###
+
+###Appendix
+
+Check version of node (as of writing mine is v6.3.1)
+```shell
+$ node -v
+```
+
+Check version of Yarn (as of writing mine is v0.22.0): 
+```shell
+$ yarn -v
+```
+
 ###
